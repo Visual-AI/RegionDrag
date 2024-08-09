@@ -1,6 +1,6 @@
 # RegionDrag: Fast Region-Based Image Editing with Diffusion Models (ECCV 2024)
- **Jingyi Lu†, [Xinghui Li‡](https://xinghui-li.github.io/), [Kai Han†](https://www.kaihan.org/)**<br>
-[Visual AI Lab, The University of Hong Kong†](https://visailab.github.io/index.html); [Active Vision Lab, University of Oxford‡](https://www.robots.ox.ac.uk/ActiveVision/)
+ **Jingyi Lu<sup>1</sup>, [Xinghui Li](https://xinghui-li.github.io/)<sup>2</sup>, [Kai Han](https://www.kaihan.org/)<sup>1</sup>**<br>
+[<sup>1</sup>Visual AI Lab, The University of Hong Kong](https://visailab.github.io/index.html); [<sup>2</sup>Active Vision Lab, University of Oxford](https://www.robots.ox.ac.uk/ActiveVision/)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pnq9t_1zZ8yL_Oba20eBLVZLp3glniBR?usp=sharing)
  <a href="https://visual-ai.github.io/regiondrag"><img alt='page' src="https://img.shields.io/badge/Project-Website-orange"></a>

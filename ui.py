@@ -3,8 +3,8 @@ if not torch.cuda.is_available():
     raise RuntimeError('CUDA is not available, but required.')
 
 import gradio as gr
-from utils.ui_utils import *
-from utils.drag import sd_version
+from region_utils.ui_utils import *
+from region_utils.drag import sd_version
 
 LENGTH = 400 # length of image in Gradio App, you can adjust it according to your screen size
 GEN_SIZE = {'v1-5': 512, 'v2-1': 768, 'xl': 1024}[sd_version] # Default generated image size 
@@ -105,7 +105,7 @@ def main():
             with gr.Row():
                 steps = gr.Slider(minimum=20, maximum=100, value=20, step=20, label='Sampling steps', interactive=True)
                 noise_scale = gr.Slider(minimum=0, maximum=1.6, value=0.6, step=0.2, label='Handle Noise Scale', interactive=True) # alpha
-                method = gr.Dropdown(choices=['Encode then CP', 'CP then Encode'], value='Encode then CP', label='Method', interactive=True)
+                method = gr.Dropdown(choices=['InstantDrag', 'Encode then CP', 'CP then Encode'], value='InstantDrag', label='Method', interactive=True)
 
         clear_all_button_m.click(
             clear_all_m,

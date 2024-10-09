@@ -4,8 +4,8 @@ import torch
 from tqdm import tqdm
 import gradio as gr
 
-from utils.drag import drag, get_drag_data, get_meta_data
-from utils.evaluator import DragEvaluator
+from region_utils.drag import drag, get_drag_data, get_meta_data
+from region_utils.evaluator import DragEvaluator
 
 # Setting up the argument parser
 parser = argparse.ArgumentParser(description='Run the drag operation.')

@@ -23,6 +23,9 @@ To locally install RegionDrag, run following using terminal:
 git clone https://github.com/LuJingyi-John/RegionDrag.git
 cd RegionDrag
 pip install -r requirements.txt
+
+# Support InstantDrag Backbone Now (https://github.com/SNU-VGILab/InstantDrag)
+git clone https://github.com/SNU-VGILab/InstantDrag instantdrag
 ```
 
 ## Run RegionDrag
@@ -82,6 +85,7 @@ drag_data/
 * [MasaCtrl: Tuning-free Mutual Self-Attention Control for Consistent Image Synthesis and Editing](https://ljzycmd.github.io/projects/MasaCtrl/)
 * [Emergent Correspondence from Image Diffusion](https://diffusionfeatures.github.io/)
 * [The Blessing of Randomness: SDE Beats ODE in General Diffusion-based Image Editing](https://github.com/ML-GSAI/SDE-Drag)
+* [InstantDrag: Improving Interactivity in Drag-based Image Editing](https://github.com/SNU-VGILab/InstantDrag)
 
 ## Acknowledgement
 Insightful discussions with Cheng Silin and Huang Xiaohu were instrumental in refining our methodology. The intuitive layout of the [DragDiffusion](https://github.com/Yujun-Shi/DragDiffusion/) project inspired our user interface design. Our SDE scheduler implementation builds upon the groundbreaking work by Shen Nie et al. in their [SDE-Drag](https://github.com/ML-GSAI/SDE-Drag) project.
